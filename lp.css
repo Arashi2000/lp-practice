@@ -166,19 +166,23 @@ a {
 position: absolute;
 right: 0;
 bottom: 0;
+width: 700px;
+background-color: #fff;
 }
 
 #left-content {
   display: inline-block;
   background-color: #fff;
-  padding: 5px 225px 15px 10px;
 }
 
 #news-box {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
   color: #fff;
   background-color: #000;
-  padding: 30px;
+  padding: 20px 40px;
 }
 
 /*mission*/
